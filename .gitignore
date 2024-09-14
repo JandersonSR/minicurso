@@ -1,0 +1,10 @@
+*.swagger.json
+.env
+yarn-error.log
+node_modules
+build
+source/files/*.csv
+source/**/*.zip
+__sleep-tests__
+source/files/*.xlsx
+*.zip
