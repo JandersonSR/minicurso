@@ -9,3 +9,5 @@ Ainda estou preparando todo o material, então acompanhe para ver a evolução d
 Meu nome é Janderson, sou desenvolvedor backend há mais de 4 anos e estarei disponibilizando esta versão em português, além de uma versão em inglês posteriormente.
 
 Aqui está o link para o servidor do Discord, onde você poderá ver mais dicas e tirar dúvidas: https://discord.gg/uCsvvABU
+
+Veja também: Todos os comandos do git e como customizar os comandos aqui: https://github.com/JandersonSR/GitConfig/tree/main
