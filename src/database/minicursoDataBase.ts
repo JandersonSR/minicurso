@@ -4,7 +4,7 @@ import mongoose from 'mongoose'
 
 const { DATABASE_NAME, DATABASE_USERNAME, DATABASE_PASSWORD, DATABASE_CUSTERNAME } = require('../config/_variables')
 
-const connectionString = `mongodb+srv://${DATABASE_USERNAME}:${DATABASE_PASSWORD}@${DATABASE_CUSTERNAME}.mongodb.net/${DATABASE_NAME}?retryWrites=true&w=majority`
+const connectionString = `mongodb+srv://${DATABASE_USERNAME}:${DATABASE_PASSWORD}@${DATABASE_CUSTERNAME}.mongodb.net/?retryWrites=true&w=majority`
 // mongodb+srv://<db_username>:<db_password>@cluster-node-teste.m87tj.mongodb.net/?retryWrites=true&w=majority&appName=cluster-node-teste
 const connectionOptions = {
   useNewUrlParser: true,

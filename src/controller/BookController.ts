@@ -1,5 +1,5 @@
 import { Router, Request, Response } from 'express'
-import { BookMongoDB } from '../models/Book/BookMongoDB'
+import BookMongoDB  from '../models/Book/BookMongoDB'
 
 const BookController = Router()
 
@@ -24,8 +24,7 @@ BookController.post('/', async (req: Request, res: Response) => {
   const { title, author } = req.body
   const year = req.body.year
 
-  const newBook = new BookMongoDB({ title, author, year })
-    await newBook.save()
+  const newBook = await BookMongoDB.create({ title, author, year })
 
     res.status(201).send(newBook)
 })

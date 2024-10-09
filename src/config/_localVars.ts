@@ -1,6 +1,6 @@
 module.exports = {
   ENV:'localhost',
-  PORT: 3010,
+  PORT: 3000,
 
 
   DATABASE_NAME: 'MINI_CURSO',
