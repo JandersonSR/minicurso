@@ -12,6 +12,7 @@ const connectionOptions = {
 }
 
 
+
 const databaseText =
   String(DATABASE_NAME).toLowerCase().includes('production')
     ? colors.red(DATABASE_NAME)

@@ -11,5 +11,4 @@ const variables = {
   DATABASE_CUSTERNAME: process.env.DATABASE_CUSTERNAME
 }
 
-
 module.exports = !process.env.PORT ? require('./_localVars') : variables
